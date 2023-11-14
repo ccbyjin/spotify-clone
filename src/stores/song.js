@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import artist from 'src/artist.json'
+import artist from '../artist.json'
 
 export const useSongStore = defineStore('song', {
   state: () => ({
