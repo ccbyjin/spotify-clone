@@ -1,0 +1,68 @@
+{
+    "name": "Doo-Wops & Hooligans",
+    "fromWho": "Bruno Mars",
+    "albumCover": "/images/albumCovers/bruno-mars-doo-wops&hooligans.jpeg",
+    "releaseYear": "2010",
+    "tracks": [
+        {
+            "id": 1,
+            "name": "Grenade",
+            "author":"Bruno Mars",
+            "path": "/songs/Grenade.mp3"
+        },
+        {
+            "id": 2,
+            "name": "Just The Way You Are",
+            "author":"Bruno Mars",
+            "path": "/songs/Just The Way You Are.mp3"
+        },
+        {
+            "id": 3,
+            "name": "Our First Time",
+            "author":"Bruno Mars",
+            "path": "/songs/Our First Time.mp3"
+        },
+        {
+            "id": 4,
+            "name": "Runaway Baby",
+            "author":"Bruno Mars",
+            "path": "/songs/Runaway Baby.mp3"
+        },
+        {
+            "id": 5,
+            "name": "The Lazy Song",
+            "author":"Bruno Mars",
+            "path": "/songs/The Lazy Song.mp3"
+        },
+        {
+            "id": 6,
+            "name": "Marry You",
+            "author":"Bruno Mars",
+            "path": "/songs/Marry You.mp3"
+        },
+        {
+            "id": 7,
+            "name": "Talking To The Moon",
+            "author":"Bruno Mars",
+            "path": "/songs/Talking To The Moon.mp3"
+        },
+        {
+            "id": 8,
+            "name": "Liquor Store Blues (feat. Damian Marley)",
+            "author":"Bruno Mars, Damian Marley",
+            "path": "/songs/Liquor Store Blues (feat. Damian Marley).mp3"
+        },
+        {
+            "id": 9,
+            "name": "Count On Me",
+            "author":"Bruno Mars",
+            "path": "/songs/Count On Me.mp3"
+        },
+        {
+            "id": 10,
+            "name": "The Other Side (feat. CeeLo Green and B.o.B)",
+            "author":"Bruno Mars, B.o.B, CeeLo Green",
+            "path": "/songs/The Other Side (feat. CeeLo Green and B.o.B).mp3"
+        }
+    ]
+}
