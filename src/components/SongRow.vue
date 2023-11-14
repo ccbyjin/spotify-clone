@@ -7,7 +7,7 @@ import Pause from 'vue-material-design-icons/Pause.vue';
 let isHover = ref(false)
 let isTrackTime = ref(null)
 
-import { useSongStore } from '../stores/song'
+import { useSongStore } from 'src/stores/song.js'
 import { storeToRefs } from 'pinia';
 const useSong = useSongStore()
 const { isPlaying, currentTrack } = storeToRefs(useSong)

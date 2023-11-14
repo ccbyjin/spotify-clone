@@ -1,6 +1,6 @@
 <script setup>
 import { ref, watch, onMounted } from 'vue'
-import MusicPlayerVolume from '../components/MusicPlayerVolume.vue'
+import MusicPlayerVolume from 'src/components/MusicPlayerVolume.vue'
 import Heart from 'vue-material-design-icons/Heart.vue';
 import PictureInPictureBottomRight from 'vue-material-design-icons/PictureInPictureBottomRight.vue';
 import Play from 'vue-material-design-icons/Play.vue';
@@ -8,7 +8,7 @@ import Pause from 'vue-material-design-icons/Pause.vue';
 import SkipBackward from 'vue-material-design-icons/SkipBackward.vue';
 import SkipForward from 'vue-material-design-icons/SkipForward.vue';
 
-import { useSongStore } from '../stores/song'
+import { useSongStore } from 'src/stores/song.js'
 import { storeToRefs } from 'pinia';
 const useSong = useSongStore()
 const { isPlaying, audio, currentTrack, currentArtist } = storeToRefs(useSong)

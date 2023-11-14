@@ -1,14 +1,14 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
-import MusicPlayer from './components/MusicPlayer.vue';
+import MusicPlayer from 'src/components/MusicPlayer.vue';
 import ChevronUp from 'vue-material-design-icons/ChevronUp.vue';
 import ChevronDown from 'vue-material-design-icons/ChevronDown.vue';
 import ChevronRight from 'vue-material-design-icons/ChevronRight.vue';
 import ChevronLeft from 'vue-material-design-icons/ChevronLeft.vue';
-import MenuItem from './components/MenuItem.vue';
+import MenuItem from 'src/components/MenuItem.vue';
 
-import { useSongStore } from './stores/song'
+import { useSongStore } from 'src/stores/song.js'
 import { storeToRefs } from 'pinia';
 const useSong = useSongStore()
 const { isPlaying, currentTrack } = storeToRefs(useSong)

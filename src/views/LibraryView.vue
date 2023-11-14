@@ -1,13 +1,13 @@
 <script setup>
-import SongRow from '../components/SongRow.vue';
+import SongRow from 'src/components/SongRow.vue';
 import Play from 'vue-material-design-icons/Play.vue';
 import Pause from 'vue-material-design-icons/Pause.vue';
 import DotsHorizontal from 'vue-material-design-icons/DotsHorizontal.vue';
 import Heart from 'vue-material-design-icons/Heart.vue';
 import ClockTimeThreeOutline from 'vue-material-design-icons/ClockTimeThreeOutline.vue';
-import artist from '../artist.json'
+import artist from 'src/artist.json'
 
-import { useSongStore } from '../stores/song'
+import { useSongStore } from 'src/stores/song.js'
 import { storeToRefs } from 'pinia';
 const useSong = useSongStore()
 const { isPlaying, currentTrack, currentArtist } = storeToRefs(useSong)
