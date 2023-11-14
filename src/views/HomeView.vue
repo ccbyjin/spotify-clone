@@ -19,8 +19,8 @@ import HomeCard from '../components/HomeCard.vue'
       <HomeCard image="https://i.postimg.cc/DZVdjvS7/BBC-News.png" title="BBC" subTitle="Subtitle is here"/>
       <HomeCard image="https://i.postimg.cc/wMVqMY3h/My-Favorite-Murder.jpg" title="My Favorite Murder" subTitle="Subtitle is here"/>
       <HomeCard class="md:block hidden" image="https://i.postimg.cc/rs2gfvVR/In-The-Dark.jpg" title="In The Dark" subTitle="Subtitle is here"/>
-      <HomeCard class="lg:block hidden" image="https://i.postimg.cc/NF1tVqR3/The-Rewatchables.png" title="The Title" subTitle="Subtitle is here"/>
-      <HomeCard class="xl:block hidden" image="https://i.postimg.cc/5tqtHzHc/The-Habitat.jpg" title="The Title" subTitle="Subtitle is here"/>
+      <HomeCard class="lg:block hidden" image="https://i.postimg.cc/NF1tVqR3/The-Rewatchables.png" title="The Rewatchables" subTitle="Subtitle is here"/>
+      <HomeCard class="xl:block hidden" image="https://i.postimg.cc/5tqtHzHc/The-Habitat.jpg" title="The Habbit" subTitle="Subtitle is here"/>
     </div>
   </div>
 
@@ -61,8 +61,8 @@ import HomeCard from '../components/HomeCard.vue'
         <HomeCard image="https://i.postimg.cc/DZVdjvS7/BBC-News.png" title="BBC" subTitle="Subtitle is here"/>
         <HomeCard image="https://i.postimg.cc/wMVqMY3h/My-Favorite-Murder.jpg" title="My Favorite Murder" subTitle="Subtitle is here"/>
         <HomeCard class="md:block hidden" image="https://i.postimg.cc/rs2gfvVR/In-The-Dark.jpg" title="In The Dark" subTitle="Subtitle is here"/>
-        <HomeCard class="lg:block hidden" image="https://i.postimg.cc/NF1tVqR3/The-Rewatchables.png" title="The Title" subTitle="Subtitle is here"/>
-        <HomeCard class="xl:block hidden" image="https://i.postimg.cc/5tqtHzHc/The-Habitat.jpg" title="The Title" subTitle="Subtitle is here"/>
+        <HomeCard class="lg:block hidden" image="https://i.postimg.cc/NF1tVqR3/The-Rewatchables.png" title="The Rewatchables" subTitle="Subtitle is here"/>
+        <HomeCard class="xl:block hidden" image="https://i.postimg.cc/5tqtHzHc/The-Habitat.jpg" title="The Habbit" subTitle="Subtitle is here"/>
       </div>
   </div>
 </template>

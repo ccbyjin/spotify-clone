@@ -30,8 +30,8 @@ onMounted(() => {
     const minutes = Math.floor(duration / 60);
     const seconds = Math.floor(duration % 60);
     // 格式化儲存在isTrackTime
-    isTrackTime.value = minutes + ":" + seconds.toString().padStart(2, "0")
-  })
+    isTrackTime.value = minutes + ":" + seconds.toString().padStart(2, '0')
+  });
 })
 
 </script>
@@ -55,7 +55,7 @@ onMounted(() => {
         />
         <!-- 未播放且有當前曲目 -->
         <Play 
-          v-else-if="!isPlaying && currentTrack.name !== track.name" 
+          v-else-if="isPlaying && currentTrack.name !== track.name" 
           fillColor="#FFFFFF" 
           :size="25"
           @click="useSong.
