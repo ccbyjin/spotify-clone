@@ -16,11 +16,11 @@ import HomeCard from '../components/HomeCard.vue'
     <div class="py-1.5"></div>
     <!-- HomeCard for Podcast -->
     <div class="flex items-center">
-      <HomeCard image="https://i.postimg.cc/DZVdjvS7/BBC-News.png" title="BBC" subTitle="Subtitle is here"/>
-      <HomeCard image="https://i.postimg.cc/wMVqMY3h/My-Favorite-Murder.jpg" title="My Favorite Murder" subTitle="Subtitle is here"/>
-      <HomeCard class="md:block hidden" image="https://i.postimg.cc/rs2gfvVR/In-The-Dark.jpg" title="In The Dark" subTitle="Subtitle is here"/>
-      <HomeCard class="lg:block hidden" image="https://i.postimg.cc/NF1tVqR3/The-Rewatchables.png" title="The Rewatchables" subTitle="Subtitle is here"/>
-      <HomeCard class="xl:block hidden" image="https://i.postimg.cc/5tqtHzHc/The-Habitat.jpg" title="The Habbit" subTitle="Subtitle is here"/>
+      <HomeCard image="https://i.postimg.cc/DZVdjvS7/BBC-News.png" title="BBC News" subTitle="BBC"/>
+      <HomeCard image="https://i.postimg.cc/wMVqMY3h/My-Favorite-Murder.jpg" title="My Favorite Murder" subTitle="Exactly Right Media"/>
+      <HomeCard class="md:block hidden" image="https://i.postimg.cc/rs2gfvVR/In-The-Dark.jpg" title="In The Dark" subTitle="The New Yorker"/>
+      <HomeCard class="lg:block hidden" image="https://i.postimg.cc/NF1tVqR3/The-Rewatchables.png" title="The Rewatchables" subTitle="Pizza Hut"/>
+      <HomeCard class="xl:block hidden" image="https://i.postimg.cc/5tqtHzHc/The-Habitat.jpg" title="The Habbit" subTitle="Gimlet"/>
     </div>
   </div>
 
@@ -58,11 +58,11 @@ import HomeCard from '../components/HomeCard.vue'
     <div class="py-1.5"></div>
     <!-- HomeCard for Recommended Songs -->
     <div class="flex items-center">
-        <HomeCard image="https://i.postimg.cc/DZVdjvS7/BBC-News.png" title="BBC" subTitle="Subtitle is here"/>
-        <HomeCard image="https://i.postimg.cc/wMVqMY3h/My-Favorite-Murder.jpg" title="My Favorite Murder" subTitle="Subtitle is here"/>
-        <HomeCard class="md:block hidden" image="https://i.postimg.cc/rs2gfvVR/In-The-Dark.jpg" title="In The Dark" subTitle="Subtitle is here"/>
-        <HomeCard class="lg:block hidden" image="https://i.postimg.cc/NF1tVqR3/The-Rewatchables.png" title="The Rewatchables" subTitle="Subtitle is here"/>
-        <HomeCard class="xl:block hidden" image="https://i.postimg.cc/5tqtHzHc/The-Habitat.jpg" title="The Habbit" subTitle="Subtitle is here"/>
+        <HomeCard image="https://i.postimg.cc/C58zcp5F/selfless.jpg" title="Wicked Games" subTitle="Kiana Ledé"/>
+        <HomeCard image="https://i.postimg.cc/W4sfXVNT/starboy.jpg" title="Die For You - remix" subTitle="The Weeknd"/>
+        <HomeCard class="md:block hidden" image="https://i.postimg.cc/q7XYcR2k/TS-reputation.jpg" title="...Ready For It?" subTitle="Taylor Swift"/>
+        <HomeCard class="lg:block hidden" image="https://i.postimg.cc/WbVQ3CCR/17.png" title="God Of Music" subTitle="SEVENTEEN"/>
+        <HomeCard class="xl:block hidden" image="https://i.postimg.cc/Bv1j6jPn/ruby.png" title="Ruby" subTitle="Woozi"/>
       </div>
   </div>
 </template>
